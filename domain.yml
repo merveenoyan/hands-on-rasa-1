@@ -1,0 +1,43 @@
+intents:
+  - selam_verme
+  - pizza_ismarlama
+  - pizza_ismarlama + pizza_secimi
+  - pizza_secimi_boy
+  - pizza_secimi_tur
+  - pizza_secimi
+  - gorusuruz
+  - dogrulama
+  - reddetme
+  - mutlu
+  - tesekkur_etme
+  - begenmek
+
+entities:
+  - pizza_turu
+  - pizza_boyu
+
+
+responses:
+  utter_selam_nasil_yardim_edebilirim:
+  - text: "Merhaba! Size nasıl yardımcı olabilirim?"
+
+  utter_ask_pizza_boyu:
+  - text: "Pizzanız hangi boy olsun?"
+
+  utter_ask_pizza_turu:
+  - text: "Pizzanız hangisi olsun?  Menümüzü şurada bulabilirsiniz:"
+    image: "https://miro.medium.com/max/756/1*vF5oxOhz4Ci1pNDr8kKKKA.jpeg"
+
+  utter_siparisinizi_aldim:
+  - text: "Siparişinizi aldım."
+
+  utter_tesekkurler:
+  - text: "Bizi tercih ettiğiniz için teşekkürler!"
+
+  utter_gorusuruz:
+  - text: "Tekrar görüşmek üzere!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
